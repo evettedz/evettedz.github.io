@@ -163,6 +163,9 @@ p {
 .n3:hover {
 	background-color: rgb(200, 10, 10);
 }
+.g{ position: absolute;
+	left: 5px;
+ }
 
 .g1 {
 	width:250px ;
@@ -276,7 +279,7 @@ p {
 	background-color: rgb(200, 10, 10);
 }
 .s{ position: absolute;
-	left: -20px;
+	left: -23px;
  }
  .s:hover .hoverable {
  background-color: rgb(200, 10, 10);}
@@ -331,12 +334,12 @@ p {
 	left: 1277px;
 }
 .s6 {
-	width: 50px;
-	height: 80px;
+	width: 51px;
+	height: 77px;
 	background-color: white;
 	position: absolute;
 	transform: rotate(-34deg);
-	left: 1168px;
+	left: 1166px;
 	top: 441px;
 }
 .s7 {
