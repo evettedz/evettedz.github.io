@@ -4,6 +4,7 @@ h2 {
 	left: 50px;
 	font-family: helevtica ;
 	font-size:26px ;
+	letter-spacing: 2px;
 }
 p {
 	position: absolute;
@@ -19,6 +20,10 @@ p {
 	position: absolute;
 	top:  -100px;
 	left: -50px;
+
+}
+.r:hover {
+	top: -50px;
 
 }
 .r1 {
@@ -269,4 +274,77 @@ p {
 }
 .e4:hover {
 	background-color: rgb(200, 10, 10);
+}
+.s{ position: absolute;
+	left: -20px;
+ }
+ .s:hover .hoverable {
+ background-color: rgb(200, 10, 10);}
+.s1 {
+	width:200px ;
+	height: 350px;
+	background-color: black;
+	position: absolute;
+	transform: rotate(-16deg);
+	top: 150px;
+	left: 1150px;
+	border-radius: 50%;
+}
+.s2 {
+	width:140px ;
+	height: 230px;
+	background-color: black;
+	position: absolute;
+	transform: rotate(-25deg);
+	top: 430px;
+	left: 1165px;
+	border-radius: 50%;
+}
+
+.s3 {
+	width:180px ;
+	height: 350px;
+	background-color: white;
+	position: absolute;
+	transform: rotate(-20deg);
+	top: 167px;
+	left: 1205px;
+	border-radius: 50%;
+}
+.s4 {
+	width:100px ;
+	height: 190px;
+	background-color: white;
+	position: absolute;
+	transform: rotate(-25deg);
+	top: 450px;
+	left: 1155px;
+	border-radius: 50%;
+}
+.s5 {
+	width: 20px;
+	height: 54px;
+	background-color: white;
+	position: absolute;
+	transform: rotate(-37deg);
+	top:  450px ;
+	left: 1275px;
+}
+.s6 {
+	width: 50px;
+	height: 80px;
+	background-color: white;
+	position: absolute;
+	transform: rotate(-34deg);
+	left: 1168px;
+	top: 441px;
+}
+.s7 {
+	width: 20px;
+	height: 54px;
+	background-color: white;
+	position: absolute;
+	transform: rotate(-33deg);
+	top:  470px ;
+	left: 1288px;
 }
