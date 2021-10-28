@@ -306,7 +306,7 @@ p {
 	height: 350px;
 	background-color: white;
 	position: absolute;
-	transform: rotate(-20deg);
+	transform: rotate(-22deg);
 	top: 167px;
 	left: 1205px;
 	border-radius: 50%;
@@ -326,9 +326,9 @@ p {
 	height: 54px;
 	background-color: white;
 	position: absolute;
-	transform: rotate(-37deg);
+	transform: rotate(-35deg);
 	top:  450px ;
-	left: 1275px;
+	left: 1277px;
 }
 .s6 {
 	width: 50px;
@@ -344,7 +344,7 @@ p {
 	height: 54px;
 	background-color: white;
 	position: absolute;
-	transform: rotate(-33deg);
-	top:  470px ;
-	left: 1288px;
+	transform: rotate(-36deg);
+	top:  440px ;
+	left: 1270px;
 }
