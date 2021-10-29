@@ -1,30 +1,33 @@
 h2 {
 	position: absolute;
-	top: 570px;
-	left: 50px;
-	font-family: helevtica ;
-	font-size:26px ;
-	letter-spacing: 2px;
+	top: 490px;
+	left: 90px;
+	font-family:helevtica;
+	font-size:18px;
+	letter-spacing:1px;
 }
 p {
 	position: absolute;
-	Top: 620px;
-	left: 50px;
+	Top: 525px;
+	left: 90px;
 	width: 375px;
 	font-family:helvetica;
-	font font-size:18px ;
-	line-height:22px ;
+	font font-size:11px;
+	line-height:18px;
 }
-
 .letters {
 	position: absolute;
-	top:  -100px;
-	left: -50px;
+	transform: scale(80%);
+	top: -70px;
 
 }
 .r:hover {
-	top: -50px;
+	position: absolute;
+	top: 50px;
 
+}
+.r:hover .hoverable{
+	background-color: rgb(200, 10, 10);
 }
 .r1 {
 	width: 50px;
@@ -33,6 +36,7 @@ p {
 	position: absolute;
 	top:  150px ;
 	left: 100px;
+	transition: all 0.3s;
 }
 .r1:hover {
 	background-color: rgb(200, 10, 10);
@@ -88,11 +92,19 @@ p {
 	background-color: rgb(200, 10, 10);
 }
 
+.a:hover {
+	position: absolute;
+	top: 50px;
 
+}
+.a:hover .hoverable{
+	background-color: rgb(200, 10, 10);
+}
 .a1 {
 	width: 50px;
 	height: 500px;
 	background-color: black;
+	transition: all .3s;
 	position: absolute;
 	top: 150px;
 	left: 300px
@@ -126,11 +138,20 @@ p {
 .a3:hover {
 	background-color: rgb(200, 10, 10);
 }
+.n:hover {
+	position: absolute;
+	top: 50px;
+
+}
+.n:hover .hoverable{
+	background-color: rgb(200, 10, 10);
+}
 .n1 {
 	width: 50px;
 	height: 500px;
 	background-color: black;
 	position: absolute;
+	transition: all .3s;
 	top: 150px;
 	left: 490px
 
@@ -163,6 +184,14 @@ p {
 .n3:hover {
 	background-color: rgb(200, 10, 10);
 }
+.g:hover {
+	position: absolute;
+	top: 50px;
+
+}
+.g:hover .hoverable{
+	background-color: rgb(200, 10, 10);
+}
 .g{ position: absolute;
 	left: 5px;
  }
@@ -176,14 +205,13 @@ p {
 	left: 675px;
 	border-radius: 50%;
 }
-.g1:hover {
-	background-color: rgb(200, 10, 10);
-}
+
 .g2 {
 	width:185px ;
 	height: 472px;
 	background-color: white;
 	position: absolute;
+	transition: all .3s;
 	transform: rotate(0deg);
 	top: 161px;
 	left: 725px;
@@ -216,9 +244,6 @@ p {
 	top: 490px;
 	left: 850px
 }
-.g5:hover {
-	background-color: rgb(200, 10, 10);
-}
 .g6 {
 	width: 5px;
 	height: 160px;
@@ -227,7 +252,13 @@ p {
 	top: 490px;
 	left: 910px
 }
-.g6:hover {
+.e:hover {
+	position: absolute;
+	top: 50px;
+	transition: all .2s;
+
+}
+.e:hover .hoverable{
 	background-color: rgb(200, 10, 10);
 }
 .e1 {
@@ -235,6 +266,7 @@ p {
 	height: 500px;
 	background-color: black;
 	position: absolute;
+	transition: all .3s;
 	top: 150px;
 	left: 960px
 }
@@ -278,21 +310,35 @@ p {
 .e4:hover {
 	background-color: rgb(200, 10, 10);
 }
-.s{ position: absolute;
-	left: -23px;
+
+.s:hover {
+	position: absolute;
+	top: 20px;
+}
+
+.s { 
+	position: absolute;
+	left: 20px;
+	top:  -130px;
+	transform: rotate(6deg)
  }
- .s:hover .hoverable {
- background-color: rgb(200, 10, 10);}
+
+.s:hover .hoverable {
+ background-color: rgb(200, 10, 10);
+}
+
 .s1 {
 	width:200px ;
 	height: 350px;
 	background-color: black;
 	position: absolute;
+	transition: all .3s;
 	transform: rotate(-16deg);
 	top: 150px;
 	left: 1150px;
 	border-radius: 50%;
 }
+
 .s2 {
 	width:140px ;
 	height: 230px;
@@ -305,49 +351,58 @@ p {
 }
 
 .s3 {
-	width:180px ;
-	height: 350px;
+	width:169px ;
+	height: 346px;
 	background-color: white;
 	position: absolute;
 	transform: rotate(-22deg);
-	top: 167px;
-	left: 1205px;
+	top: 157px;
+	left: 1200px;
 	border-radius: 50%;
 }
 .s4 {
-	width:100px ;
-	height: 190px;
+	width:90px ;
+	height: 192px;
 	background-color: white;
 	position: absolute;
 	transform: rotate(-25deg);
 	top: 450px;
-	left: 1155px;
+	left: 1165px;
 	border-radius: 50%;
 }
 .s5 {
-	width: 20px;
-	height: 54px;
+	width: 33px;
+	height: 76px;
 	background-color: white;
 	position: absolute;
-	transform: rotate(-35deg);
-	top:  450px ;
-	left: 1277px;
+	transform: rotate(-33deg);
+	top:  428px ;
+	left: 1272px;
 }
 .s6 {
 	width: 51px;
-	height: 77px;
+	height: 81px;
 	background-color: white;
 	position: absolute;
-	transform: rotate(-34deg);
+	transform: rotate(-33deg);
 	left: 1166px;
-	top: 441px;
+	top: 440px;
 }
 .s7 {
 	width: 20px;
-	height: 54px;
+	height: 63px;
 	background-color: white;
 	position: absolute;
-	transform: rotate(-36deg);
-	top:  440px ;
-	left: 1270px;
+	transform: rotate(-26deg);
+	top:  532px ;
+	left: 1160px;
+}
+.s8 {
+	width: 20px;
+	height: 73px;
+	background-color: white;
+	position: absolute;
+	transform: rotate(-42deg);
+	top:  169px ;
+	left: 1279px;
 }
