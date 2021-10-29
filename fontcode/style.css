@@ -338,17 +338,22 @@ p {
 	left: 1150px;
 	border-radius: 50%;
 }
+.s1:hover {
+	background-color: rgb(200, 10, 10);}
 
 .s2 {
 	width:140px ;
 	height: 230px;
 	background-color: black;
 	position: absolute;
+	transition: all .3s;
 	transform: rotate(-25deg);
 	top: 430px;
 	left: 1165px;
 	border-radius: 50%;
 }
+.s2:hover {
+	background-color: rgb(200, 10, 10);}
 
 .s3 {
 	width:169px ;
