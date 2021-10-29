@@ -201,6 +201,7 @@ p {
 	height: 497px;
 	background-color: black;
 	position: absolute;
+	transition: all .3s;
 	top: 150px;
 	left: 675px;
 	border-radius: 50%;
