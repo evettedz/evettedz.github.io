@@ -46,6 +46,7 @@ h3 {
     font-weight: 400;
     font-style: normal;
     color: white;
+    letter-spacing: 1px;
 }
 .museum { 
   position: absolute;
@@ -126,16 +127,16 @@ h2 {
     color: white;
     letter-spacing: 1px;
 }
-}
 
 h3 {
     position: absolute;
     top: 670px;
     left: 3vw;
-    font-size: 17px;
+    font-size: 20 px;
     font-family: 'Teko', sans-serif;
     font-weight: 400;
     font-style: normal;
     color: white;
+}
 }
 
