@@ -2,18 +2,19 @@ body {
   background-color: black;
 }
 
+
 .background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom:  0;
-  right: 0;
-  margin: auto;
-  width: 70vw;
-  height: 70vh;
-  background-image: url("eye.gif");
-  background-size: cover;
-  background-position: center;
+    position: absolute;
+    top: 19vw;
+    left: 22vw;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 75w;
+    height: 70vh;
+    background-image: url(eye.gif);
+    background-size: cover;
+    background-position: center;
 }
 
 h1 {
@@ -53,7 +54,11 @@ h3 {
   top: 15px;
   left: 5vw;
  }
+.adress {
+    position: absolute;
+    top: 640px;
 
+}
 .price {
     position: absolute;
     top: 450px;
@@ -62,7 +67,7 @@ h3 {
     font-family: 'Teko', sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: white;
+    color: rgb(236, 0, 140);
     line-height: 28px;
 }
 
@@ -81,6 +86,20 @@ h3 {
 
 @media (max-width: 420px)
 {
+.background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom:  0;
+  right: 0;
+  margin: auto;
+  width: 70vw;
+  height: 70vh;
+  background-image: url("eye.gif");
+  background-size: cover;
+  background-position: center;
+}
+
 h1 {
     position: absolute;
     top: 40px;
@@ -98,7 +117,6 @@ h1 {
     top: 520px;
     left: 3vw;
     font-size: 22px;
-    color: white;
     line-height: 25px;
     font-family: 'Teko', sans-serif;
     letter-spacing: 1px;
@@ -130,13 +148,17 @@ h2 {
 
 h3 {
     position: absolute;
-    top: 670px;
+    top: 683px;
     left: 3vw;
     font-size: 20 px;
     font-family: 'Teko', sans-serif;
     font-weight: 400;
     font-style: normal;
     color: white;
+}
+.adress {
+    position: absolute;
+    top: 660px;
 }
 }
 
