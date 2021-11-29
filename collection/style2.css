@@ -1,0 +1,52 @@
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 110vw;
+	height: 100vh;
+	background-color: black;
+}
+.box {
+	width: 300px;
+	height: 300px;
+	background-color: rgb(200,20,42);
+	position:  relative;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+.inside {
+	color: black;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	font-family: Helvetica;
+	font-size: 33px;
+}
+
+.special {
+	width: 200px;
+	height: 200px;
+	border: 6px solid rgb(20, 70, 180);
+	border-radius: 50%;
+	position: absolute;
+	top: 100px;
+	left: 600px;
+}
+
+.regular {
+	position: absolute;
+	top: 100px;
+	width: 300px;
+	height: 300px;
+	background-color: black;
+}
+
+.text{
+	position: absolute;
+	top: 100px;
+	width: 300px;
+	height: 300px;
+	background-color: black;
+}
