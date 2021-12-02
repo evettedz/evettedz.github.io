@@ -27,7 +27,6 @@
 .box {
 	width: 240px;
 	height: 240px;
-
 	position:  relative;
 	top: 300px;
 	margin-top: 10px;
@@ -35,3 +34,8 @@
 	display: inline-block;
 }
 
+iframe {
+position: absolute;
+width: 100%;
+
+}
