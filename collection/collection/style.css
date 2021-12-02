@@ -1,0 +1,36 @@
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.playlista {
+	position: absolute;
+	top:  180px;
+	left: 130px;
+	width: 188px;
+	height: 262px;
+	background-image: url("polaroid.jpg");
+	transform: rotate(-12deg);
+}
+.playlistb {
+	position: absolute;
+	top:  100px;
+	left: 340px;
+	width: 188px;
+	height: 262px;
+	background-image: url("polaroid2.jpg");
+	transform: rotate(8deg);
+}
+.playlistc {
+	position: absolute;
+	top:  130px;
+	left: 540px;
+	width: 188px;
+	height: 262px;
+	background-image: url("polaroid3.jpg");
+	transform: rotate(-15deg);
+}
+

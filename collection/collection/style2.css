@@ -1,0 +1,41 @@
+.background {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 200vw;
+	background-color: rgb(233, 167, 85); }
+
+.backgroundb {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 200vw;
+	background-color: rgb(215, 117, 180);
+}
+
+.backgroundc {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 200vw;
+	background-color: rgb(136, 95, 181);
+}
+
+.box {
+	width: 240px;
+	height: 240px;
+	position:  relative;
+	top: 300px;
+	margin-top: 10px;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+iframe {
+position: absolute;
+width: 100%;
+
+}
