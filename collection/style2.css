@@ -2,16 +2,36 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 110vw;
-	height: 100vh;
-	background-color: rgb(233, 117, 117);
+	width: 100vw;
+	height: 200vw;
+	background-color: rgb(233, 167, 85); }
+
+.backgroundb {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 200vw;
+	background-color: rgb(215, 117, 180);
 }
+
+.backgroundc {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 200vw;
+	background-color: rgb(136, 95, 181);
+}
+
 .box {
-	width: 300px;
-	height: 300px;
-	background-color: rgb(200,20,42);
+	width: 240px;
+	height: 240px;
+
 	position:  relative;
+	top: 300px;
 	margin-top: 10px;
 	margin-left: 10px;
 	display: inline-block;
 }
+

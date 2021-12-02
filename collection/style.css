@@ -2,35 +2,34 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 110vw;
+	width: 100vw;
 	height: 100vh;
-	background-image: url("background.jpg");
 }
 
 .playlista {
 	position: absolute;
-	top:  100px;
-	left: 50px;
+	top:  180px;
+	left: 130px;
 	width: 188px;
-	height: 258px;
+	height: 262px;
 	background-image: url("polaroid.jpg");
 	transform: rotate(-12deg);
 }
 .playlistb {
 	position: absolute;
-	top:  30px;
-	left: 220px;
+	top:  100px;
+	left: 340px;
 	width: 188px;
-	height: 258px;
+	height: 262px;
 	background-image: url("polaroid2.jpg");
 	transform: rotate(8deg);
 }
 .playlistc {
 	position: absolute;
-	top:  60px;
-	left: 380px;
+	top:  130px;
+	left: 540px;
 	width: 188px;
-	height: 258px;
+	height: 262px;
 	background-image: url("polaroid3.jpg");
 	transform: rotate(-15deg);
 }
