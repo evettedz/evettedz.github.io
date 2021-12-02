@@ -39,10 +39,15 @@ position: absolute;
 width: 100%;
 bottom: 0;
 left: 0;
-opacity: 0;
+z-index: 1;
 
 }
 
+img {
+pointer-events: none;
+z-index: 3;
+}
+
 .box:hover iframe {
-	opacity: 1;
+	z-index: 5;
 }
