@@ -52,3 +52,13 @@ z-index: 3;
 .box:hover iframe {
 	z-index: 5;
 }
+
+p {
+	 position: absolute;
+    font-family: "American Typewriter";
+    top: 200px ;
+    width: 500px;
+    line-height: 18px;
+    font-size: 14px;
+    left: 20px;
+}
