@@ -44,7 +44,7 @@ z-index: 1;
 }
 
 img {
-	position: absolute;
+position: absolute;
 pointer-events: none;
 z-index: 3;
 }
