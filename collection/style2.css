@@ -2,26 +2,29 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100vw;
+	width: 200vw;
 	height: 200vw;
-	background-color: rgb(233, 167, 85); }
-
+	background-color: rgb(233, 167, 85); 
+	z-index: 1;
+}
 .backgroundb {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100vw;
+	width: 200vw;
 	height: 200vw;
 	background-color: rgb(215, 117, 180);
+	z-index: 1;
 }
 
 .backgroundc {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100vw;
+	width: 200vw;
 	height: 200vw;
 	background-color: rgb(136, 95, 181);
+	z-index: 1;
 }
 
 .box {
@@ -43,6 +46,18 @@ z-index: 1;
 
 }
 
+.div {
+	position: absolute;
+	width: 206%;
+	top: 240px;
+	left: 0;
+	z-index: 0;
+	font-family: american typewriter;
+	background-color: black;
+	color: white;
+
+}
+
 img {
 position: absolute;
 pointer-events: none;
@@ -53,12 +68,26 @@ z-index: 3;
 	z-index: 5;
 }
 
+.box:hover .div {
+	z-index: 5;
+}
+
 p {
 	 position: absolute;
     font-family: "American Typewriter";
-    top: 200px ;
+    top: 195px ;
     width: 500px;
-    line-height: 18px;
-    font-size: 14px;
+    line-height: 20px;
+    font-size: 16px;
     left: 20px;
+    z-index: 2;
+}
+ 
+h1 {
+	font-family: madelinette, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 40 px;
+	z-index: 5;
+	color: black;
 }
