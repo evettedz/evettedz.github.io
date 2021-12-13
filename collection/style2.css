@@ -119,10 +119,11 @@ h1 {
 	position: absolute;
 	height: 200px;
 	width:  200px;
-	top: 10px;
-	left: 10px;
+	top: 220px;
+	left: 920px;
 	background-image: url("arrow.png.");
 	z-index: 99; 
+	
 
 
 }
