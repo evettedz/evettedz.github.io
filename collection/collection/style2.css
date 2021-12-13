@@ -48,7 +48,7 @@ z-index: 1;
 
 .div {
 	position: absolute;
-	width: 206%;
+	width: 181%;
 	top: 240px;
 	left: 0;
 	z-index: 0;
@@ -56,6 +56,23 @@ z-index: 1;
 	background-color: black;
 	color: white;
 	border-width: 50px;
+	padding: 30px;
+    line-height: 25px;
+
+}
+
+.divy {
+	position: absolute;
+	width: 181%;
+	top: 240px;
+	right: 0;
+	z-index: 0;
+	font-family: american typewriter;
+	background-color: black;
+	color: white;
+	border-width: 50px;
+	padding: 30px;
+    line-height: 25px;
 
 }
 
@@ -73,12 +90,16 @@ z-index: 3;
 	z-index: 5;
 }
 
+.box:hover .divy {
+	z-index: 5;
+}
+
 p {
 	 position: absolute;
     font-family: "American Typewriter";
-    top: 180px ;
+    top: 160px ;
     width: 450px;
-    line-height: 20px;
+    line-height: 25px;
     font-size: 16px;
     left: 20px;
     z-index: 2;
@@ -91,4 +112,22 @@ h1 {
 	font-size: 40 px;
 	z-index: 5;
 	color: black;
+}
+
+
+.arrow { 
+	position: absolute;
+	height: 200px;
+	width:  200px;
+	top: 220px;
+	left: 920px;
+	background-image: url("arrow.png.");
+	z-index: 99; 
+	
+
+
+}
+
+
+
 }
