@@ -117,7 +117,15 @@ h1 {
 
 .arrow { 
 	position: absolute;
-	transform: rotate(180deg);
+	height: 200px;
+	width:  200px;
+	top: 10px;
+	left: 10px;
+	background-image: url("arrow.png.");
+	z-index: 99; 
+
+
+}
 
 
 
