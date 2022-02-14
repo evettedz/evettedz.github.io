@@ -1,0 +1,67 @@
+.ball {
+  position: absolute;
+  top: 10vw;
+  left: 7vw;
+  width: 15vw;
+  height: 15vw;
+  background-color: red;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  animation-name: ball;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+  .box {
+  position: absolute;
+  top: 10vw;
+  left: 5vw;
+  width: 2vw;
+  height: 15vw;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  animation-name: box;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+   .box2 {
+  position: absolute;
+  top: 10vw;
+  left: 85vw;
+  width: 2vw;
+  height: 15vw;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  animation-name: box;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+@keyframes ball {
+ 0% {left: 7w; opacity: 10%;} 
+ 30% {left: 70vw;}
+ 50%  {left: 7vw;} 
+ 65% { left: 70vw;}
+ 75% { left: 7vw;}
+ 80% { left: 70vw;}
+ 84% {left:  7vw;}
+ 87% { left: 70vw;} 
+ 90% { left: 7vw;}
+ 92% { left: 70vw;}
+ 94% {left:  7vw;}
+ 96% { left: 70vw;}
+ 97% {left:  7vw;}
+ 98% { left: 70vw;}
+ 100% { left:7vw; opacity: 100%}
+}
+
+@keyframes box {
+ 0% {opacity: 10%;} 
+ 100% {opacity: 100%}
