@@ -10,7 +10,7 @@
   margin-right: auto;
   margin-bottom: 20px;
   animation-name: ball;
-  animation-duration: 20s;
+  animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite; }
 
@@ -25,14 +25,14 @@
   margin-right: auto;
   margin-bottom: 20px;
   animation-name: box;
-  animation-duration: 20s;
+  animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite; }
 
    .box2 {
   position: absolute;
   top: 10vw;
-  left: 85vw;
+  right: 5vw;
   width: 2vw;
   height: 15vw;
   background-color: red;
@@ -40,28 +40,268 @@
   margin-right: auto;
   margin-bottom: 20px;
   animation-name: box;
-  animation-duration: 20s;
+  animation-duration: 30s;
   animation-timing-function: linear;
   animation-iteration-count: infinite; }
 
+  .box3 {
+  position: absolute;
+  top: 10vw;
+  right: 12vw;
+  width: 2vw;
+  height: 15vw;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  animation-name: box3;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+.box4 {
+  position: absolute;
+  top: 10vw;
+  left: 12vw;
+  width: 2vw;
+  height: 15vw;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  animation-name: box4;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+  .box5 {
+  position: absolute;
+  top: 10vw;
+  right: 19vw;
+  width: 2vw;
+  height: 15vw;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  animation-name: box5;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+  .box6 {
+  position: absolute;
+  top: 10vw;
+  left: 19vw;
+  width: 2vw;
+  height: 15vw;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  animation-name: box6;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+ .box7 {
+  position: absolute;
+  top: 10vw;
+  right: 26vw;
+  width: 2vw;
+  height: 15vw;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  animation-name: box7;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+  .box8 {
+  position: absolute;
+  top: 10vw;
+  left: 26vw;
+  width: 2vw;
+  height: 15vw;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  animation-name: box8;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+ .box9 {
+  position: absolute;
+  top: 10vw;
+  right: 33vw;
+  width: 2vw;
+  height: 15vw;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  animation-name: box9;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+    .box10 {
+  position: absolute;
+  top: 10vw;
+  left: 33vw;
+  width: 2vw;
+  height: 15vw;
+  background-color: red;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  animation-name: box10;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite; }
+
+
+.ball.alarm {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin:  auto;
+  background-color: black;
+  animation-name: alarm;
+  animation-duration: .5s;
+}
+
+.box.alarm {
+  opacity: 0;
+  animation: none;
+}
+
+.box2.alarm {
+  opacity: 0;
+   animation: none;
+}
+
+.box3.alarm {
+  opacity: 0;
+  animation: none;
+}
+
+.box4.alarm {
+  opacity: 0;
+   animation: none;
+}
+
+.box5.alarm {
+  opacity: 0;
+  animation: none;
+}
+
+.box6.alarm {
+  opacity: 0;
+   animation: none;
+}
+
+.box7.alarm {
+  opacity: 0;
+  animation: none;
+}
+
+.box8.alarm {
+  opacity: 0;
+   animation: none;
+}
+
+.box9.alarm {
+  opacity: 0;
+  animation: none;
+}
+
+.box10.alarm {
+  opacity: 0;
+   animation: none;
+}
+
+
 @keyframes ball {
  0% {left: 7w; opacity: 10%;} 
- 30% {left: 70vw;}
- 50%  {left: 7vw;} 
- 65% { left: 70vw;}
- 75% { left: 7vw;}
- 80% { left: 70vw;}
- 84% {left:  7vw;}
- 87% { left: 70vw;} 
- 90% { left: 7vw;}
- 92% { left: 70vw;}
- 94% {left:  7vw;}
- 96% { left: 70vw;}
- 97% {left:  7vw;}
- 98% { left: 70vw;}
- 100% { left:7vw; opacity: 100%}
+ 30% {left: 78vw;}
+ 51%  {left: 7vw;} 
+ 65.7% { left: 71vw;}
+ 76% { left: 14vw;}
+ 83.2% { left: 64vw;}
+ 88.2% {left:  21vw;}
+ 91.7% { left: 57vw;} 
+ 94.2% { left: 28vw;}
+ 96% { left: 50vw;}
+ 97% {left:  35vw;}
+ 98% { left: 50vw;}
+ 98.5% {left:  35vw;}
+ 99% { left: 50vw;}
+ 99.5% { left: 35vw;}
+ 100% { left: 50vw; opacity: 100%}
 }
 
 @keyframes box {
  0% {opacity: 10%;} 
- 100% {opacity: 100%}
+ 100% {opacity: 100%} }
+
+@keyframes box3 {
+ 0% {opacity: 0%;} 
+ 65.6% {opacity: 0;}
+ 65.7% {opacity: 65.7%}
+ 100% {opacity: 100%} }
+
+ @keyframes box4 {
+ 0% {opacity: 0%;} 
+ 75.9% {opacity: 0;}
+ 76% {opacity: 76%}
+ 100% {opacity: 100%} }
+
+  @keyframes box5 {
+ 0% {opacity: 0%;} 
+ 83.1% {opacity: 0;}
+ 83.2% {opacity: 83.2%}
+ 100% {opacity: 100%} }
+
+ @keyframes box6 {
+ 0% {opacity: 0%;} 
+ 88.1% {opacity: 0;}
+ 88.2% {opacity: 88.2%}
+ 100% {opacity: 100%} }
+
+ @keyframes box7 {
+ 0% {opacity: 0%;} 
+ 91.6% {opacity: 0;}
+ 91.7% {opacity: 91.7%}
+ 100% {opacity: 100%} }
+
+ @keyframes box8 {
+ 0% {opacity: 0%;} 
+ 94.1% {opacity: 0;}
+ 94.2% {opacity: 94.2%}
+ 100% {opacity: 100%} }
+
+  @keyframes box9 {
+ 0% {opacity: 0%;} 
+ 95.9% {opacity: 0;}
+ 96% {opacity: 96%}
+ 100% {opacity: 100%} }
+
+ @keyframes box10 {
+ 0% {opacity: 0%;} 
+ 96.9% {opacity: 0;}
+ 97% {opacity: 97%}
+ 100% {opacity: 100%} }
+
+ @keyframes alarm {
+ 0% {width: 80vw;
+  height: 80vw;} 
+ 50% {width: 90vw;
+  height: 90vw;} 
+100% {width: 80vw;
+  height: 80vw;} }
