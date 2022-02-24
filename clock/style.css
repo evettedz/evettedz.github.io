@@ -229,20 +229,24 @@
 
 @keyframes ball {
  0% {left: 7w; opacity: 10%;} 
- 30% {left: 78vw;}
- 51%  {left: 7vw;} 
+ 25% {left: 78vw;}
+ 48%  {left: 7vw;} 
  65.7% { left: 71vw;}
  76% { left: 14vw;}
  83.2% { left: 64vw;}
  88.2% {left:  21vw;}
  91.7% { left: 57vw;} 
- 94.2% { left: 28vw;}
- 96% { left: 50vw;}
- 97% {left:  35vw;}
+ 93.4% { left: 28vw;}
+ 95% { left: 50vw;}
+ 96% {left:  35vw;}
+ 97% { left: 46vw;}
+ 97.5% {left:  35vw;}
  98% { left: 50vw;}
- 98.5% {left:  35vw;}
- 99% { left: 50vw;}
- 99.5% { left: 35vw;}
+ 98.33% { left: 35vw;}
+ 98.66% { left: 50vw;}
+ 99% { left: 35vw;}
+  99.33% { left: 50vw;}
+ 99.66% { left: 35vw;}
  100% { left: 50vw; opacity: 100%}
 }
 
@@ -282,26 +286,40 @@
 
  @keyframes box8 {
  0% {opacity: 0%;} 
- 94.1% {opacity: 0;}
- 94.2% {opacity: 94.2%}
+ 93.3% {opacity: 0;}
+ 93.4% {opacity: 93.4%}
  100% {opacity: 100%} }
 
   @keyframes box9 {
+ 0% {opacity: 0%;} 
+ 94.9% {opacity: 0;}
+ 95% {opacity: 94%}
+ 100% {opacity: 100%} }
+
+ @keyframes box10 {
  0% {opacity: 0%;} 
  95.9% {opacity: 0;}
  96% {opacity: 96%}
  100% {opacity: 100%} }
 
- @keyframes box10 {
- 0% {opacity: 0%;} 
- 96.9% {opacity: 0;}
- 97% {opacity: 97%}
- 100% {opacity: 100%} }
-
  @keyframes alarm {
  0% {width: 80vw;
-  height: 80vw;} 
+  height: 80vw;
+background-color: red;} 
  50% {width: 90vw;
-  height: 90vw;} 
+  height: 90vw;
+background-color: black;}
 100% {width: 80vw;
+  background-color: red;
   height: 80vw;} }
+
+  .wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 100vw;
+    height: 35vw;
+  } }
