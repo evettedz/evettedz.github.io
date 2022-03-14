@@ -46,9 +46,8 @@ body {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  border-radius: 50%;
-  background-color: rgb(243, 128, 25);
-  color: white;
+  background-color: white;
+  color: purple;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
   font-size: 22px;
@@ -71,8 +70,8 @@ body {
   position: absolute;
   bottom: 80px;
   left: 400px;
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   background-image: url("./img/idling-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 1000ms;
